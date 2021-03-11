@@ -6,7 +6,7 @@ Hello and welcome to my super dumb repo that doesn't do anything! We just have a
 
 ## Checkout all these people who looked at my repo:
 * 👩🏾
-
+* Steven
 
 ## Fun code times:
 
@@ -59,4 +59,13 @@ bubbleSort(arr)
 print ("Sorted array is:") 
 for i in range(len(arr)): 
     print ("%d" %arr[i])
+```
+
+A Go function
+```Go
+func Hello(name string) string {
+	//Return a greeting that embeds the name in a message
+	message := fmt.Sprintf("Hi, %v. Welcome!", name)
+	return message
+}
 ```
